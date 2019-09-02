@@ -13,3 +13,5 @@
 [demo地址](https://lingyi0-1.github.io/imitate-vue2-happyfri/#/)(请用chrome手机模式预览)
 
 ### 移动端扫描下方二维码
+
+<img src='https://github.com/lingyi0-1/imitate-vue2-happyfri/blob/master/src/assets/images/demoQRcode.png' width="300" height="300" />
