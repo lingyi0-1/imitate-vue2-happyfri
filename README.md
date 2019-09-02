@@ -14,7 +14,7 @@
 
 ### 移动端扫描下方二维码
 
-![](https://github.com/lingyi0-1/imitate-vue2-happyfri/blob/master/src/assets/images/demoQRcode.png)
+![](src/assets/images/demoQRcode.png)
 
 ## 项目运行（nodejs 10.0+）
 
