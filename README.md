@@ -16,7 +16,7 @@
 
 <img src='https://github.com/lingyi0-1/imitate-vue2-happyfri/blob/master/src/assets/images/demoQRcode.png' width="300" height="300" />
 
-## 项目运行（nodejs 6.0+）
+## 项目运行（nodejs 10.0+）
 
 ```
 
