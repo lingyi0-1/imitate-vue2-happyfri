@@ -14,7 +14,7 @@
 
 ### 移动端扫描下方二维码
 
-![](https://api.qr-code-generator.com/v1/codes/10634156/refresh-image?access-token=vIWROCg-7Vl8uRDdSOY-skEwElxo7WcKMSNQ7OVvZoBXOcavt5jYSPMNOeboRZJN&rnd=1567431138018)
+<img src='src/assets/images/demo-imitate-vue2-happyfri.png' width="300" height="300" />
 
 ## 项目运行（nodejs 10.0+）
 
