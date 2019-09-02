@@ -14,7 +14,7 @@
 
 ### 移动端扫描下方二维码
 
-<img src='src/assets/images/demo-imitate-vue2-happyfri.png' width="300" height="300" />
+<img src='src/assets/images/demo-imitate-vue2-happyfri.png' width="300"/>
 
 ## 项目运行（nodejs 10.0+）
 
