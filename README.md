@@ -15,3 +15,111 @@
 ### 移动端扫描下方二维码
 
 <img src='https://github.com/lingyi0-1/imitate-vue2-happyfri/blob/master/src/assets/images/demoQRcode.png' width="300" height="300" />
+
+##vue.config.js
+
+```
+
+module.exports = {
+    lintOnSave: false,
+    publicPath: process.env.NODE_ENV === "production" ? "/imitate-vue2-happyfri" : "/",
+    css:{
+      loaderOptions: {
+        sass: {
+          data: `@import "@/assets/css/vm.scss";`
+        }
+      }
+    }
+
+}
+
+```
+
+## main.js
+
+```
+
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './assets/css/normalize.css'
+import './assets/css/body.css'
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
+
+```
+
+## 路由配置
+
+```
+
+import Vue from 'vue'
+import Router from 'vue-router'
+import Home from './views/Home'
+import Item from './views/Item'
+import Score from './views/Score'
+
+
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+      {
+          path: '/',
+          component: Home,
+      },
+      {
+          path: '/item',
+          component: Item,
+      },
+      {
+          path: '/score',
+          component: Score,
+      }
+  ]
+})
+
+```
+
+## 状态管理
+
+```
+
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  state: {
+    score: 0,//分数
+  },
+  mutations: {
+    updateScore(state, n){
+      state.score = n;
+    }
+  },
+  actions: {
+
+  }
+})
+
+```
+
+## 单位转换器px=>vw(vw布局)
+
+```
+
+$vw_base: 375;
+@function vw($px){
+  @return ($px/375)*100vw;
+}
+
+```
